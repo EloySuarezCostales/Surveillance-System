@@ -216,3 +216,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# YOLO outputs
+runs/
+
+# Captured images
+captures/
+detections/
+output/
+
+# Datasets
+datasets/
+data/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+
+# Videos
+*.mp4
+*.avi
+*.mov
