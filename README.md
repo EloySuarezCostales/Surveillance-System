@@ -1,78 +1,37 @@
-# Surveillance-System
-This project aims to develop a surveillance system capable of detecting people in real-time from camera feeds and automatically capturing and storing their images. The collected data is presented through a web-based dashboard that provides relevant information, including statistics, analytics, and other insights derived from the detected activity.
+# Smart Surveillance System
 
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-.venv/
-venv/
-env/
+## Description
+This project is a real-time surveillance system that detects people from camera feeds using YOLO. Detected individuals are captured and stored, while a web dashboard provides visualization, monitoring, and statistical analysis of detection data.
 
-# Environment variables / secrets
-.env
-.env.local
+## Features
+- Real-time person detection
+- Image capture and storage
+- Web-based dashboard
+- Detection statistics and analytics
+- Historical detection records
 
-# YOLO / ML model files
-*.pt
-*.pth
-*.onnx
-*.weights
-*.engine
+## Technologies
+- Python
+- YOLO
+- Pillow (PIL)
+- HTML
+- CSS
 
-# Generated images / detections
-captures/
-detections/
-output/
-runs/
-logs/
+## Installation
 
-# Dataset folders
-dataset/
-datasets/
-data/
-images/
-videos/
+1. Clone the repository
 
-# PIL / temporary files
-*.tmp
-*.temp
+```bash
+git clone https://github.com/yourusername/project-name.git
 
-# Web / CSS build files
-node_modules/
-dist/
-build/
+2. Create a virtual environment
+BASH
+python -m venv venv
 
-# IDEs
-.vscode/
-.idea/
+3. Install dependencies
+BASH
+pip install -r requirements.txt
 
-# OS files
-.DS_Store
-Thumbs.db
-
-# Jupyter
-.ipynb_checkpoints/
-
-# YOLO outputs
-runs/
-
-# Captured images
-captures/
-detections/
-output/
-
-# Datasets
-datasets/
-data/
-
-# Model weights
-*.pt
-*.pth
-*.onnx
-
-# Videos
-*.mp4
-*.avi
-*.mov
+4. Run the application
+BASH
+python main.py
