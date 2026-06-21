@@ -1,7 +1,6 @@
 # Smart Surveillance System
 
 ## Description
-# Intelligent Surveillance System
 
 This project is a real-time intelligent surveillance system developed in Python using Computer Vision.
 
@@ -22,7 +21,7 @@ The dashboard, built with Streamlit, allows users to:
 * Filter events by date, confidence level, and number of detected people.
 * Analyze activity patterns through statistical visualizations.
 
-### Technologies Used
+## Technologies Used
 
 * Python
 * OpenCV
@@ -34,7 +33,7 @@ The dashboard, built with Streamlit, allows users to:
 * HTML
 * CSS
 
-### Main Features
+## Main Features
 
 * Real-time person detection.
 * Motion-triggered AI inference for performance optimization.
