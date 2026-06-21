@@ -1,37 +1,48 @@
 # Smart Surveillance System
 
 ## Description
-This project is a real-time surveillance system that detects people from camera feeds using YOLO. Detected individuals are captured and stored, while a web dashboard provides visualization, monitoring, and statistical analysis of detection data.
+# Intelligent Surveillance System
 
-## Features
-- Real-time person detection
-- Image capture and storage
-- Web-based dashboard
-- Detection statistics and analytics
-- Historical detection records
+This project is a real-time intelligent surveillance system developed in Python using Computer Vision and Deep Learning techniques.
 
-## Technologies
-- Python
-- YOLO
-- Pillow (PIL)
-- HTML
-- CSS
+The system combines motion detection, Region of Interest (ROI) analysis, and YOLOv8-based person detection to efficiently monitor video streams from recorded videos or live cameras. By executing object detection only when significant movement is detected, the system reduces unnecessary processing and improves overall performance.
 
-## Installation
+When a person is detected with sufficient confidence, the system automatically:
 
-1. Clone the repository
+* Registers the event in a structured log file.
+* Captures and stores evidence images.
+* Generates a short video clip containing the moments preceding the detection.
+* Provides real-time monitoring through an interactive web dashboard.
 
-```bash
-git clone https://github.com/yourusername/project-name.git
+The dashboard, built with Streamlit, allows users to:
 
-2. Create a virtual environment
-BASH
-python -m venv venv
+* Review detection history.
+* Browse captured images.
+* Download recorded event clips.
+* Filter events by date, confidence level, and number of detected people.
+* Analyze activity patterns through statistical visualizations.
 
-3. Install dependencies
-BASH
-pip install -r requirements.txt
+### Technologies Used
 
-4. Run the application
-BASH
-python main.py
+* Python
+* OpenCV
+* YOLOv8 (Ultralytics)
+* Streamlit
+* Pandas
+* Plotly
+* PIL
+* HTML
+* CSS
+
+### Main Features
+
+* Real-time person detection.
+* Motion-triggered AI inference for performance optimization.
+* Configurable Region of Interest (ROI).
+* Adaptive motion thresholding.
+* Automatic image capture and event logging.
+* Event clip generation.
+* Interactive monitoring dashboard.
+* Statistical analysis of surveillance activity.
+
+This project was designed as an end-to-end computer vision solution, combining video processing, machine learning, data analysis, and web-based visualization into a single integrated system.
