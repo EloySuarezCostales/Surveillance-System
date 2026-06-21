@@ -3,7 +3,7 @@
 ## Description
 # Intelligent Surveillance System
 
-This project is a real-time intelligent surveillance system developed in Python using Computer Vision and Deep Learning techniques.
+This project is a real-time intelligent surveillance system developed in Python using Computer Vision.
 
 The system combines motion detection, Region of Interest (ROI) analysis, and YOLOv8-based person detection to efficiently monitor video streams from recorded videos or live cameras. By executing object detection only when significant movement is detected, the system reduces unnecessary processing and improves overall performance.
 
