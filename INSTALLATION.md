@@ -24,11 +24,14 @@ If you want to use a webcam or camera, leave the video path empty or provide an 
 
 Open `configROI.py` and modify the parameters according to your needs.
 
+
+
 ### Video Source
 
 **VIDEO_PATH**
 
 Name of the video file to be analyzed.
+
 
 
 ### Region of Interest (ROI)
@@ -37,7 +40,6 @@ Name of the video file to be analyzed.
 
 Coordinates of the upper-left corner of the Region of Interest (ROI).
 
-
 **ROI_W, ROI_H**
 
 Width and height of the ROI.
@@ -45,22 +47,21 @@ Width and height of the ROI.
 The surveillance system will only analyze movement and perform detections inside this region.
 
 
-### Detection Thresholds
 
+### Detection Thresholds
 
 **MIN_CONFIDENCE_COUNT**
 
 Minimum confidence required for a detection to be registered in the Event Log.
 
-
 **MIN_CONFIDENCE_SAVE**
 
 Minimum confidence required to save an image of the detected event.
 
-
 **MIN_CONFIDENCE_CLIP**
 
 Minimum confidence required to generate and save an event clip.
+
 
 
 ### Output Configuration
@@ -69,15 +70,15 @@ Minimum confidence required to generate and save an event clip.
 
 Folder where captured images will be stored.
 
-
 **VIDEO_OUTPUT_DIR**
 
 Folder where generated clips will be stored.
 
-
 **CSV_PATH**
 
 Path of the CSV file used to store event records.
+
+
 
 ### Clip Configuration
 
@@ -90,6 +91,8 @@ Set to `False` to disable clip generation.
 **PRE_EVENT_SECONDS**
 
 Number of seconds stored before a detection occurs.
+
+
 
 ### Cooldowns
 
