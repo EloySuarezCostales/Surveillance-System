@@ -1,8 +1,8 @@
 # Project Background
 
-This project was developed to apply and consolidate the knowledge acquired during the **Python 3 Programming Specialization** course on Coursera. Throughout the course, I learned a wide range of Python programming concepts and techniques, and I wanted to challenge myself by building a complete project from scratch.
+This project was developed to apply and consolidate the knowledge acquired during the Python 3 Programming Specialization course on Coursera. Throughout the course, I learned a wide range of Python programming concepts and techniques, and I wanted to challenge myself by building a complete project from scratch.
 
-In addition to Python, this project gave me the opportunity to improve my skills in **Computer Vision**, **Data Analysis**, **Dashboard Development**, and **CSS/HTML customization**.
+In addition to Python, this project gave me the opportunity to improve my skills in Computer Vision, Data Analysis, Dashboard Development, and CSS/HTML customization.
 
 The final system was developed incrementally, with each stage introducing new functionality and improvements.
 
