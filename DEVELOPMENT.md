@@ -1,27 +1,68 @@
-This project is a project done to apply what I have learnt in a course done in Coursera, called Pytthon 3 Programming Specialization. Where I have learnt a big amount of python techniques. Also, I wanted to practise and test my CSS and HTML programming skills.
+# Project Background
 
-To reach the level with which the system ended up. I passed through some steps, trying to learn things from the basics.
-STEPS:
-1. Movement detection
-2. Simple-objects detection
-   2.1 Person
-   2.2 Outlines
-   2.3 Regions of interest
-3.Events Registration
-   3.1 Saving Images
-   3.2 Time stamps
-   3.3 Logs
-4. Simple Dashboard
-   4.1 Saved events
-   4.2 Stadistics
-   4.3 Plots and graphs
-5. Final Improvements
-   5.1 Noise Filter
-   5.2 Optimization
-   5.3 Umbrales adaptativos
-6. Clips
-   6.1 Record clips
-   6.2 Save clips
-   6.3 Open clips
-   6.4 Download clips from dashboard
-7. Personal changes
+This project was developed to apply and consolidate the knowledge acquired during the **Python 3 Programming Specialization** course on Coursera. Throughout the course, I learned a wide range of Python programming concepts and techniques, and I wanted to challenge myself by building a complete project from scratch.
+
+In addition to Python, this project gave me the opportunity to improve my skills in **Computer Vision**, **Data Analysis**, **Dashboard Development**, and **CSS/HTML customization**.
+
+The final system was developed incrementally, with each stage introducing new functionality and improvements.
+
+## Development Stages
+
+### 1. Motion Detection
+
+* Basic movement detection using frame differencing.
+
+### 2. Object Detection
+
+* Person detection using YOLO.
+* Contour detection.
+* Region of Interest (ROI) implementation.
+
+### 3. Event Registration
+
+* Automatic image capture.
+* Timestamp generation.
+* Event logging and CSV registration.
+
+### 4. Interactive Dashboard
+
+* Event visualization.
+* Saved image gallery.
+* Activity statistics.
+* Plots and graphs.
+
+### 5. System Optimization
+
+* Noise filtering.
+* Detection optimization.
+* Adaptive thresholds.
+
+### 6. Event Clips
+
+* Automatic clip recording.
+* Clip storage.
+* Clip management.
+* Clip download from the dashboard.
+
+### 7. Final Refinements
+
+* User experience improvements.
+* Configuration validation.
+* Dashboard styling and usability enhancements.
+* General code cleanup and optimization.
+
+## Learning Outcomes
+
+This project allowed me to gain practical experience in:
+
+* Python development.
+* Computer Vision with OpenCV.
+* Deep Learning integration with YOLOv8.
+* Data processing with Pandas.
+* Interactive dashboards with Streamlit.
+* Data visualization with Plotly.
+* Front-end customization using CSS and HTML.
+* Software design, debugging, and performance optimization.
+
+The objective was not only to build a surveillance system, but also to understand the complete development process of a real-world application, from initial prototyping to deployment-ready functionality.
+
