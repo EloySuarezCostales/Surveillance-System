@@ -86,7 +86,7 @@ CONTOUR_THRESHOLD = int((ROI_W * ROI_H) * 0.003)
 video = cv2.VideoCapture(VIDEO_PATH)
 
 if video.isOpened():
-    print(f"✅ Using video file: {VIDEO_PATH}")
+    print(f"Using video file: {VIDEO_PATH}")
 else:
     print("⚠️ Video file not found. Attempting to open system camera...")
 
@@ -94,7 +94,7 @@ else:
     video = cv2.VideoCapture(0)
 
     if video.isOpened():
-        print("✅ Using system camera")
+        print("Using system camera")
     else:
         print("❌ No video file or camera available")
         exit()
@@ -288,7 +288,7 @@ while True:
 
             best_confidence = max(float(obj.conf) for obj in high_confidence_persons)
 
-            print(f"✅ Image saved: {filename}")
+            print(f"Image saved: {filename}")
             print(f"Detected at: {datetime.now().strftime('%H:%M:%S')} | "
                 f"Confidence: {best_confidence:.2f} | "
                 f"Persons: {len(high_confidence_persons)}")
