@@ -204,7 +204,7 @@ with c5:
 
 # SIDEBAR – FILTERS
 with st.sidebar:
-    st.markdown("## 🔍 Filters")
+    st.markdown("## Filters")
 
     # Date range
     valid_dates = df["timestamp"].dropna()
