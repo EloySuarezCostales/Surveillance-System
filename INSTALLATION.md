@@ -128,6 +128,12 @@ The dashboard allows you to:
 * Filter events by different criteria.
 * Analyze activity statistics and visualizations.
 
+## 6. Opening Saved Video Clips
+
+Some generated clips may not be previewed directly inside Visual Studio Code or the Streamlit dashboard, depending on the video codec supported by the system.
+
+For that reason, the project includes the opening_savedVideos.py, in which you just have to modify the path 'event_clips/.....' with the name of the .avi file.
+
 ## Learning Path
 
 If you are interested in understanding how the project was developed from scratch, you can follow the development stages described in the main `README.md` file.
